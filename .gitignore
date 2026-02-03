@@ -1,2 +1,18 @@
+# Ignore Visual Studio temporary files
 .vs/
+*.user
+*.suo
+
+# Ignore Build folders (where the .exe lives)
+x64/
+Debug/
+Release/
+bin/
+obj/
+
+# Ignore compiled files
 *.exe
+*.dll
+*.obj
+*.pdb
+*.ilk
