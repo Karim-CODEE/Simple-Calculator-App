@@ -36,8 +36,9 @@ float div(float a, float b) {
 
 int main() {
 	intro();
+	int choice = input();
 	
-	if (input() == 1) {
+	if (choice == 1) {
 		float num1, num2;
 		
 		cout << "Enter Number 1: ";
@@ -46,6 +47,16 @@ int main() {
 		cin >> num2;
 		cout << "sum is: " << add(num1, num2);
 	}
+	else if (choice == 2) {
+		float num1, num2;
+
+		cout << "Enter Number 1: ";
+		cin >> num1;
+		cout << "Enter Number 2: ";
+		cin >> num2;
+		cout << "sub is: " << sub(num1, num2);
+	}
+	
 
 	return 0;
 }
